@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h1 id="home-win" class="winner">Winner</h1>
+            <h1 class="side">HOME</h1>
+            <h1 id="home-score" class="score">0</h1>
+            <div class="btn">
+                <button onclick="homeOne()">+1</button>
+                <button onclick="homeTwo()">+2</button>
+                <button onclick="homeThree()">+3</button>
+            </div>
+        </div>
+        <div class="game-controls">
+        <button id="end-btn" onclick="gameOver()" class="end-btn">STOP</button>
+
+
+        <button id="new-btn" onclick="newGame()" class="new-btn">New Game</button>
+        </div>
+        <div class="guest">
+            <h1 id="guest-win" class="winner">Winner</h1>
+            <h1 class="side">GUEST</h1>
+            <h1 id="guest-score" class="score">0</h1>
+            <div  class="btn">
+                <button onclick="guestOne()">+1</button>
+                <button onclick="guestTwo()">+2</button>
+                <button onclick="guestThree()">+3</button>
+            </div>
+        </div>
+
+        
+
+
+
+
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
